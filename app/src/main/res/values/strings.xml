@@ -1,3 +1,19 @@
 <resources>
-    <string name="app_name">AMIGOS-GEMASTIK</string>
+    <string name="app_name">EcoWaste</string>
+
+    <string name="login_1">Silakan masukkan email dan password anda terlebih dahulu untuk login</string>
+    <string name="login_2">Login</string>
+    <string name="login_3">Log In</string>
+    <string name="login_4">Don\'t have an account yet ?</string>
+    <string name="login_5">Register Now</string>
+    <string name="login_6">Forgot Password ?</string>
+
+
+    <string name="regis_1">Silakan lengkapi data berikut untuk membuat akun</string>
+    <string name="regis_2">Sign Up</string>
+    <string name="regis_3">Already have an account ?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
 </resources>
