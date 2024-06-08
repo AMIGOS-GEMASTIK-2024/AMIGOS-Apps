@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "827944608461",
+    "project_id": "amigos-gemastik-2024",
+    "storage_bucket": "amigos-gemastik-2024.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:827944608461:android:6a261defa276f4444ebf84",
+        "android_client_info": {
+          "package_name": "com.syhdzn.amigos_gemastik"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWXXQUZ2JAeHkwrRDT4WkFsYEfDwdWpHw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
