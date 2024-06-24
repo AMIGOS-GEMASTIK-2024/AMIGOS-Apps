@@ -13,7 +13,7 @@ Versi Python: [versi Python yang diperlukan]
 Dependensi lain: [daftar pustaka atau software lain yang diperlukan]
 
 
-3. Panduan Instalasi
+### 3. Panduan Instalasi
 
 3.1. Mengunduh Kode Sumber
 Anda dapat mengunduh kode sumber AMIGOS-Apps dari repositori GitHub:
