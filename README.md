@@ -8,10 +8,7 @@ AMIGOS-Apps adalah aplikasi yang dikembangkan untuk lomba Pengembangan Perangkat
 
 Sebelum menginstal dan menggunakan AMIGOS-Apps, pastikan sistem Anda memenuhi persyaratan berikut:
 
-Sistem Operasi: [sebutkan sistem operasi yang didukung, misalnya Windows, macOS, Linux]
-Versi Python: [versi Python yang diperlukan]
-Dependensi lain: [daftar pustaka atau software lain yang diperlukan]
-
+Sistem Operasi: Android
 
 ### 3. Panduan Instalasi
 
