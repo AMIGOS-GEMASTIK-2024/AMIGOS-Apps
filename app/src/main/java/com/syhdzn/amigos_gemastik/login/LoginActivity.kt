@@ -22,6 +22,7 @@ import com.syhdzn.amigos_gemastik.R
 import com.syhdzn.amigos_gemastik.dashboard.DashboardActivity
 import com.syhdzn.amigos_gemastik.register.RegisterActivity
 import com.syhdzn.amigos_gemastik.databinding.ActivityLoginBinding
+import com.syhdzn.amigos_gemastik.resetpass.ResetPasswordActivity
 
 
 class LoginActivity : AppCompatActivity() {
@@ -109,8 +110,8 @@ class LoginActivity : AppCompatActivity() {
         }
 
         binding.resetnow.setOnClickListener {
-            // startActivity(Intent(this@LoginActivity, ResetPasswordActivity::class.java))
-            // finish()
+             startActivity(Intent(this@LoginActivity, ResetPasswordActivity::class.java))
+             finish()
         }
     }
 

@@ -58,7 +58,7 @@ class RegisterActivity : AppCompatActivity() {
                                     val userId = firebaseAuth.currentUser?.uid
                                     if (userId != null) {
                                         val userData = HashMap<String, Any>()
-                                        userData["full name"] = fullname
+                                        userData["name"] = fullname
                                         userData["email"] = email
                                         databaseReference.child("users").child(userId).setValue(userData)
                                             .addOnCompleteListener { dbTask ->

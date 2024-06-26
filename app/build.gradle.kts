@@ -49,6 +49,7 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
+    implementation(libs.play.services.maps)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -94,4 +95,13 @@ dependencies {
     implementation ("androidx.core:core-ktx:1.7.0")
     implementation ("com.github.sina-seyfi:AdvancedCardView:1.0.1")
     implementation ("com.github.amarjain07:StickyScrollView:1.0.3")
+    implementation ("com.google.android.gms:play-services-location:21.0.1")
+    implementation ("com.google.android.gms:play-services-maps:18.0.2")
+    implementation ("com.google.firebase:firebase-storage:20.0.1")
+    implementation ("com.github.bumptech.glide:glide:4.16.0")
+    implementation ("com.google.android.material:material:1.4.0")
+    implementation ("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation ("com.google.maps.android:android-maps-utils:2.3.0")
+
 }

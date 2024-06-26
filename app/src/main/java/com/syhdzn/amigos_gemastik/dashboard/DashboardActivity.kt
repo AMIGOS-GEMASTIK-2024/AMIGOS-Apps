@@ -66,7 +66,7 @@ class DashboardActivity : AppCompatActivity() {
 
         if (switchToFragment != null) {
             when (switchToFragment) {
-                "DetectionFragment", "ShopFragment", "HistoryFragment" -> switchToDetectionFragment()
+                "DetectionFragment", "ReportFragment", "HistoryFragment" -> switchToDetectionFragment()
             }
         }
 

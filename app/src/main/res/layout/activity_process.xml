@@ -58,7 +58,7 @@
                 android:fontFamily="@font/font_4_medium"
                 android:text="Replace"
                 android:textColor="@color/white"
-                android:textSize="16sp"
+                android:textSize="14sp"
                 app:layout_constraintBottom_toBottomOf="@+id/iv_bg_replace"
                 app:layout_constraintStart_toEndOf="@+id/imageView4"
                 app:layout_constraintTop_toTopOf="@+id/iv_bg_replace" />

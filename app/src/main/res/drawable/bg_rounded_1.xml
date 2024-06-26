@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle" xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/color_4" /> <!-- Warna latar belakang tombol saat dalam keadaan normal -->
+    <corners android:radius="10dp" /> <!-- Jari-jari sudut tombol -->
+</shape>
