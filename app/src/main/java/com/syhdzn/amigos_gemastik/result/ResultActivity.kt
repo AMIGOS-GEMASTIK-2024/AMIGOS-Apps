@@ -6,6 +6,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.syhdzn.amigos_gemastik.camera.CameraReportActivity
 import com.syhdzn.amigos_gemastik.dashboard.DashboardActivity
 import com.syhdzn.amigos_gemastik.databinding.ActivityResultBinding
 
@@ -21,6 +22,7 @@ class ResultActivity : AppCompatActivity() {
         setupWindowInsets()
 
         displayResults()
+        setupAction()
     }
 
     private fun setupWindowInsets() {
@@ -40,6 +42,13 @@ class ResultActivity : AppCompatActivity() {
 
         if (!imageUriString.isNullOrEmpty()) {
             binding.ivItemResult.setImageURI(Uri.parse(imageUriString))
+        }
+    }
+
+    private fun setupAction() {
+        binding.btnBack.setOnClickListener {
+            val intent = Intent(this, DashboardActivity::class.java)
+            startActivity(intent)
         }
     }
 
