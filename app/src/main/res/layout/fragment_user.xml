@@ -28,7 +28,7 @@
                 android:layout_width="93dp"
                 android:layout_height="72dp"
                 android:src="@drawable/ic_baseline_account_circle_24"
-                android:tint="@color/white" />
+                app:tint="@color/white" />
 
             <TextView
                 android:id="@+id/tv_namapelapor"
