@@ -3,7 +3,12 @@
 
     <string name="login_1">Silakan masukkan email dan password Anda terlebih dahulu untuk login</string>
     <string name="login_2">Masuk</string>
-    <string name="login_3">Log In</string>
+    <string name="login_3">Login</string>
+    <string name="login_text1">Silakan masukan email dan password anda \n terlebih dahulu untuk login</string>
+    <string name="email_lgn">Email</string>
+    <string name="password_lgn">Password</string>
+    <string name="email_sign">Email</string>
+    <string name="password_sign">Password</string>
     <string name="login_4">Belum punya akun?</string>
     <string name="login_5">Daftar Sekarang</string>
     <string name="login_6">Lupa Password?</string>
