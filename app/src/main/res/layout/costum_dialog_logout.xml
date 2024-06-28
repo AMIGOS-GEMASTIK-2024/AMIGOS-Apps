@@ -12,13 +12,13 @@
         android:layout_width="313dp"
         android:layout_height="170dp"
         android:backgroundTint="@color/color_3"
-        android:tint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/bg_rounded" />
+        app:srcCompat="@drawable/bg_rounded"
+        app:tint="@color/white" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -61,7 +61,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
         android:background="@drawable/bg_rounded"
-        android:backgroundTint="@color/color_2"
+        android:backgroundTint="@color/color_4"
         android:fontFamily="@font/inter_regular"
         android:text="NO"
         android:textAllCaps="false"
@@ -76,7 +76,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="16dp"
         android:background="@drawable/bg_rounded"
-        android:backgroundTint="@color/color_4"
+        android:backgroundTint="@color/color_2"
         android:fontFamily="@font/inter_regular"
         android:text="YES"
         android:textAllCaps="false"

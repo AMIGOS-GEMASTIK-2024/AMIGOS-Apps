@@ -44,6 +44,12 @@
             android:name=".report.ReportActivity"
             android:exported="true" />
         <activity
+            android:name=".history.HistoryActivity"
+            android:exported="true" />
+        <activity
+            android:name=".editprofile.EditProfileActivity"
+            android:exported="true" />
+        <activity
             android:name=".result.ResultActivity"
             android:exported="true" />
         <activity

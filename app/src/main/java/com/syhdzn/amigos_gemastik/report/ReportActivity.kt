@@ -60,6 +60,15 @@ class ReportActivity : AppCompatActivity() {
         getCurrentLocation() // Automatically fetch location on activity creation
     }
 
+    data class User(
+        val name: String = "",
+        val email: String = "",
+        val phoneNumber: String = "",
+        val gender: String = "",
+        val address: String = ""
+    )
+
+
     private fun setupAction() {
         binding.ivBack.setOnClickListener {
             val intent = Intent(this, DashboardActivity::class.java)
