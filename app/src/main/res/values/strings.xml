@@ -23,6 +23,11 @@
     <string name="regis_cpasswordhint">Masukkan password anda lagi</string>
     <string name="regis_3">Sudah punya akun?</string>
 
+    <string name="profile_ep_">Edit Profile</string>
+    <string name="profile_gantipass">Ganti Password</string>
+    <string name="profile_riwayat">Riwayat Pelaporan</string>
+    <string name="profile_logout">Logout</string>
+
     <string name="hello_blank_fragment">Halo fragmen kosong</string>
 
 </resources>
