@@ -9,12 +9,18 @@
     <string name="password_lgn">Password</string>
     <string name="email_sign">Email</string>
     <string name="password_sign">Password</string>
+    <string name="nama_sign">Nama</string>
+    <string name="cpassword_sign">Konfirmasi Password</string>
     <string name="login_4">Belum punya akun?</string>
-    <string name="login_5">Daftar Sekarang</string>
+    <string name="login_5">Daftar</string>
     <string name="login_6">Lupa Password?</string>
 
-    <string name="regis_1">Silakan lengkapi data berikut untuk membuat akun</string>
+    <string name="regis_text1">Silakan lengkapi data berikut \n untuk register</string>
     <string name="regis_2">Daftar</string>
+    <string name="regis_namahint">Masukkan nama anda</string>
+    <string name="regis_emailhint">Masukkan email anda</string>
+    <string name="regis_passwordhint">Masukkan password anda</string>
+    <string name="regis_cpasswordhint">Masukkan password anda lagi</string>
     <string name="regis_3">Sudah punya akun?</string>
 
     <string name="hello_blank_fragment">Halo fragmen kosong</string>
