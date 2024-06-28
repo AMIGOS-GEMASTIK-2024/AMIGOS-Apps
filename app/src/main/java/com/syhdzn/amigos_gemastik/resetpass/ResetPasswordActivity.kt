@@ -19,11 +19,18 @@ import com.google.firebase.database.ValueEventListener
 import com.syhdzn.amigos_gemastik.R
 import com.syhdzn.amigos_gemastik.databinding.ActivityResetPasswordBinding
 import com.syhdzn.amigos_gemastik.login.LoginActivity
+import com.syhdzn.amigos_gemastik.profile.UserFragment
 
 class ResetPasswordActivity : AppCompatActivity() {
     private lateinit var binding: ActivityResetPasswordBinding
     private lateinit var auth: FirebaseAuth
     private lateinit var databaseReference: DatabaseReference
+
+    companion object {
+        const val EXTRA_SOURCE = "extra_source"
+        const val SOURCE_LOGIN = "source_login"
+        const val SOURCE_PROFILE = "source_profile"
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -65,8 +72,7 @@ class ResetPasswordActivity : AppCompatActivity() {
 
     private fun setupAction() {
         binding.btnBack.setOnClickListener {
-            startActivity(Intent(this, LoginActivity::class.java))
-            finish()
+            navigateBack()
         }
 
         binding.btnSubmit.setOnClickListener {
@@ -104,6 +110,23 @@ class ResetPasswordActivity : AppCompatActivity() {
             })
     }
 
+    private fun navigateBack() {
+        val source = intent.getStringExtra(EXTRA_SOURCE)
+        when (source) {
+            SOURCE_LOGIN -> {
+                startActivity(Intent(this, LoginActivity::class.java))
+            }
+            SOURCE_PROFILE -> {
+                // Start the activity that contains the ProfileFragment
+                val intent = Intent(this, UserFragment::class.java)
+                intent.putExtra("navigateTo", "ProfileFragment")
+                startActivity(intent)
+            }
+            else -> finish()
+        }
+        finish()
+    }
+
     private fun showInvalidDialog(message: String) {
         val dialog = SweetAlertDialog(this, SweetAlertDialog.ERROR_TYPE)
         dialog.setContentText(message)
@@ -123,9 +146,7 @@ class ResetPasswordActivity : AppCompatActivity() {
         dialog.setContentText(message)
         dialog.setCancelable(false)
         dialog.setConfirmClickListener {
-            startActivity(Intent(this, LoginActivity::class.java))
-            finish()
-            onBackPressed()
+            navigateBack()
         }
         dialog.show()
     }
